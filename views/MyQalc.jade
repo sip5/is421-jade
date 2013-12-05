@@ -27,30 +27,30 @@ head
             ul.nav
               ul.nav.navbar-nav
                 li
-                  a(href='Qalcselect.html')
+                  a(href='/QalcSelect')
                     i.icon-home
                     | Home
                 li
-                  a(href='MyQalc.html')
+                  a(href='/MyQalc')
                     i.icon-th-large
                     | My Qalculators
                 li
-                  a(href='Offer.html')
+                  a(href='/offerF')
                     i.icon-usd
                     | My Offers
             ul.nav.navbar-nav.pull-right
               li
-                a(href='Login.html')
+                a(href='/login')
                   i.icon-off
                   | Logout
               li
-                a(href='Login.html')
+                a(href='/login')
                   i.icon-wrench
                   | Setting
     br
     br
     br
-    .body
+    .container
       .span9
         .btn-group
           button.btn.active All
@@ -63,7 +63,7 @@ head
             li.span3
               .thumbnail(style='padding: 0;')
                 div(style='padding: 4px;')
-                  img(alt='300x200', style='width: 100%;', src='13.jpg')
+                  img(alt='300x200', style='width: 100%;', src='img/13.jpg')
                 .caption
                   h2 Qalc A
                   p Car description
@@ -92,7 +92,7 @@ head
             li.span3
               .thumbnail(style='padding: 0;')
                 div(style='padding: 4px;')
-                  img(alt='300x200', style='width: 100%;', src='14.jpg')
+                  img(alt='300x200', style='width: 100%;', src='img/14.jpg')
                 .caption
                   h2 Qalc B
                   p Car description
@@ -122,7 +122,7 @@ head
             li.span3
               .thumbnail(style='padding: 0;')
                 div(style='padding: 4px;')
-                  img(alt='300x200', style='width: 100%;', src='15.jpg')
+                  img(alt='300x200', style='width: 100%;', src='img/15.jpg')
                 .caption
                   h2 Qalc C
                   p Car description
@@ -154,7 +154,7 @@ head
             li.span3
               .thumbnail(style='padding: 0;')
                 div(style='padding: 4px;')
-                  img(alt='300x200', style='width: 100%;', src='16.jpg')
+                  img(alt='300x200', style='width: 100%;', src='img/16.jpg')
                 .caption
                   h2 Qalc D
                   p Car description
@@ -200,10 +200,5 @@ head
             a(href='#') Security
           .span4
             p.muted.pull-right © 2013 Calculator App. All rights reserved
-    //
-       Le javascript
-          ================================================== 
-    //
-       Placed at the end of the document so the pages load faster 
     script(src='./js/jquery.js')
     script(src='./js/bootstrap.js')
